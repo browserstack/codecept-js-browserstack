@@ -20,7 +20,7 @@
 
   ```
   export BROWSERSTACK_USERNAME=<browserstack-username> &&
-  export BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
+  export BROWSERSTACK_ACCESSKEY=<browserstack-access-key>
   ```
 
 ## Addtional Resources
