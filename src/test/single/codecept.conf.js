@@ -14,7 +14,7 @@ exports.config = {
       capabilities: {
         "os": "Windows",
         "os_version": "10",
-        "browser_version": "96.0",
+        "browser_version": "latest",
         "build": "Single_Execution",
         "name": "Single Test Edge",
         "browserstack.debug": "true",

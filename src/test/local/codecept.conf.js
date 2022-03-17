@@ -16,7 +16,7 @@ exports.config = {
             capabilities: {
                 "os": "Windows",
                 "os_version": "10",
-                "browser_version": "96.0",
+                "browser_version": "latest",
                 "browserstack.local": "true",
                 "project": "Codecept + WebdriverIO",
                 "build": "Local_Execution",

@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/princebaretto99/codeceptJS-browserstack.git"
+    "url": "git+https://github.com/browserstack/codecept-js-browserstack"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/princebaretto99/codeceptJS-browserstack/issues"
+    "url": "https://github.com/browserstack/codecept-js-browserstack/issues"
   },
-  "homepage": "https://github.com/princebaretto99/codeceptJS-browserstack#readme",
+  "homepage": "https://github.com/browserstack/codecept-js-browserstack#readme",
   "devDependencies": {
     "codeceptjs": "^3.2.3",
-    "webdriverio": "^6.12.1"
+    "webdriverio": "^7.17.4"
   },
   "dependencies": {
     "browserstack-local": "^1.4.8",
