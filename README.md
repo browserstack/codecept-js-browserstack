@@ -2,7 +2,7 @@
 
 # Integrating CodeceptJS <a href="https://codecept.io/"><img src="https://codecept.io/logo.svg" alt="Node.js" height="22" /></a> with BrowserStack <a href="https://browserstack.com"><img src="https://www.browserstack.com/blog/favicon.png" alt="BrowserStack" height="22" /></a>
 ## Prerequisite
-* [Node.js](https://nodejs.org/en/download/) version >= 12.0
+* [Node.js](https://nodejs.org/en/download/) version 12 or higher is installed on your machine.
 
 ## Setup
 * Clone the repo
