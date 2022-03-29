@@ -28,7 +28,7 @@ exports.config = {
     bootstrap: function () {
         console.log("Connecting Local");
         exports.bs_local = new browserstack.Local();
-        exports.bs_local.start({ 'key': BROWSERSTACK_ACCESSKEY }, function (error) {
+        exports.bs_local.start({ 'key': BROWSERSTACK_ACCESS_KEY }, function (error) {
             if (error) return error;
             console.log('Connected. Now testing...');
 
