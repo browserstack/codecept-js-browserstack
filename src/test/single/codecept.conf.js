@@ -16,23 +16,27 @@ exports.config = {
         "os": "Windows",
         "os_version": "10",
         "browser_version": "latest",
+        "project": "Codecept + WebdriverIO",
         "build": "Single_Execution",
         "name": "Single Test Edge",
         "browserstack.debug": "true",
         'browserstack.networkLogs': 'true',
       }
-      //We can also use capabilities based on W3C protocol as mentioned below:
-      // capabilities: {
-      //  'bstack:options' :
-      //    "os": "Windows",
-      //    "osVersion": "10",
-      //    "buildName": "Single_Execution",
-      //    "sessionName": "Single Test Edge",
-      //    "debug" : "true",
-      //    "networkLogs" : "true",
-      //  },
-      //  "browserVersion": "latest",
-      // }
+      //For W3C-based scripts, use the following capabilties:
+      /* 
+      capabilities: {
+       "bstack:options" : {
+         "os": "Windows",
+         "osVersion": "10",
+         "projectName": "Codecept + WebdriverIO",
+         "buildName": "Single_Execution",
+         "sessionName": "Single Test Edge",
+         "debug" : "true",
+         "networkLogs" : "true",
+       },
+       "browserVersion": "latest",
+      }
+      */
     }
   },
   include: {
