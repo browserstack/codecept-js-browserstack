@@ -21,7 +21,21 @@ exports.config = {
             browsers: [
                 {
                     browser: "Safari",
+                    //For W3C-based scripts, use the following capabilties:
+                    desiredCapabilities: {
+                        "bstack:options" : {
+                            "os": "OS X",
+                            "osVersion": "Catalina",
+                            "projectName": "Codecept + WebdriverIO",
+                            "buildName": "Parallel_Execution",
+                            "sessionName": "Parallel Test Safari",
+                            "debug" : "true",
+                            "networkLogs" : "true",
+                        },
+                        "browserVersion": "latest",
+                    },
                     //Mentioned below are the capabilities based on JSON Wire Protocol
+                    /*
                     desiredCapabilities: {
                         "os": "OS X",
                         "os_version": "Catalina",
@@ -32,26 +46,26 @@ exports.config = {
                         "browserstack.debug": "true",
                         'browserstack.networkLogs': 'true',
                     },
-                    //For W3C-based scripts, use the following capabilties:
-                    /*
-                    desiredCapabilities: {
-                     "bstack:options" : {
-                       "os": "OS X",
-                       "osVersion": "Catalina",
-                       "projectName": "Codecept + WebdriverIO",
-                       "buildName": "Parallel_Execution",
-                       "sessionName": "Parallel Test Safari",
-                       "debug" : "true",
-                       "networkLogs" : "true",
-                     },
-                     "browserVersion": "latest",
-                    },
                     */
                 },
 
                 {
                     browser: "Firefox",
+                    //For W3C-based scripts, use the following capabilties:
+                    desiredCapabilities: {
+                        "bstack:options" : {
+                            "os": "Windows",
+                            "osVersion": "10",
+                            "projectName": "Codecept + WebdriverIO",
+                            "buildName": "Parallel_Execution",
+                            "sessionName": "Parallel Test Firefox",
+                            "debug" : "true",
+                            "networkLogs" : "true",
+                        },
+                        "browserVersion": "latest",
+                    },
                     //Mentioned below are the capabilities based on JSON Wire Protocol
+                    /*
                     desiredCapabilities: {
                         "os": "Windows",
                         "os_version": "10",
@@ -61,20 +75,6 @@ exports.config = {
                         "name": "Parallel Test Firefox",
                         "browserstack.debug": "true",
                         'browserstack.networkLogs': 'true',
-                    },
-                    //For W3C-based scripts, use the following capabilties:
-                    /*
-                    desiredCapabilities: {
-                     "bstack:options" : {
-                       "os": "Windows",
-                       "osVersion": "10",
-                       "projectName": "Codecept + WebdriverIO",
-                       "buildName": "Parallel_Execution",
-                       "sessionName": "Parallel Test Firefox",
-                       "debug" : "true",
-                       "networkLogs" : "true",
-                     },
-                     "browserVersion": "latest",
                     },
                     */
                 },

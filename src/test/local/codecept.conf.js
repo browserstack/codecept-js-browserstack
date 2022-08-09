@@ -13,27 +13,27 @@ exports.config = {
             user: BROWSERSTACK_USERNAME,
             key: BROWSERSTACK_ACCESS_KEY,
             browser: 'chrome',
-            //Mentioned below are the capabilities based on JSON Wire Protocol
+            // For W3C-based scripts, use the following capabilties:
             capabilities: {
-                "os": "Windows",
-                "os_version": "10",
-                "browser_version": "latest",
-                "browserstack.local": "true",
-                "project": "Codecept + WebdriverIO",
-                "build": "Local_Execution",
-                "name": "Local Test",
+                "bstack:options" : {
+                    "os": "Windows",
+                    "osVersion": "10",
+                    "local": "true",
+                    "projectName": "Codecept + WebdriverIO",
+                    "buildName": "Local_Execution",
+                    "sessionName": "Local Test",
+                },
+                "browserVersion": "latest",
             }
-            //For W3C-based scripts, use the following capabilties:
+            // Mentioned below are the capabilities based on JSON Wire Protocol
             // capabilities: {
-            //  "bstack:options" : {
-            //    "os": "Windows",
-            //    "osVersion": "10",
-            //    "local": "true",
-            //    "projectName": "Codecept + WebdriverIO",
-            //    "buildName": "Local_Execution",
-            //    "sessionName": "Local Test",
-            //  },
-            //  "browserVersion": "latest",
+            //     "os": "Windows",
+            //     "os_version": "10",
+            //     "browser_version": "latest",
+            //     "browserstack.local": "true",
+            //     "project": "Codecept + WebdriverIO",
+            //     "build": "Local_Execution",
+            //     "name": "Local Test",
             // }
         }
     },
