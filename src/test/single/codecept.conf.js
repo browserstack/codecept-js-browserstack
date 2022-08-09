@@ -11,7 +11,22 @@ exports.config = {
       user: BROWSERSTACK_USERNAME,
       key: BROWSERSTACK_ACCESS_KEY,
       browser: 'Edge',
+      //For W3C-based scripts, use the following capabilties: 
+      capabilities: {
+        "bstack:options" : {
+          "os": "Windows",
+          "osVersion": "10",
+          "projectName": "Codecept + WebdriverIO",
+          "buildName": "Single_Execution",
+          "sessionName": "Single Test Edge",
+          "debug" : "true",
+          "networkLogs" : "true",
+        },
+        "browserVersion": "latest",
+      }
+
       //Mentioned below are the capabilities based on JSON Wire Protocol
+      /*
       capabilities: {
         "os": "Windows",
         "os_version": "10",
@@ -21,20 +36,6 @@ exports.config = {
         "name": "Single Test Edge",
         "browserstack.debug": "true",
         'browserstack.networkLogs': 'true',
-      }
-      //For W3C-based scripts, use the following capabilties:
-      /* 
-      capabilities: {
-       "bstack:options" : {
-         "os": "Windows",
-         "osVersion": "10",
-         "projectName": "Codecept + WebdriverIO",
-         "buildName": "Single_Execution",
-         "sessionName": "Single Test Edge",
-         "debug" : "true",
-         "networkLogs" : "true",
-       },
-       "browserVersion": "latest",
       }
       */
     }
