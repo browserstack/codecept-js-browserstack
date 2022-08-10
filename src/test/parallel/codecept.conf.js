@@ -22,7 +22,7 @@ exports.config = {
                 {
                     browser: "Safari",
                     //For W3C-based scripts, use the following capabilties:
-                    desiredCapabilities: {
+                    capabilities: {
                         "bstack:options" : {
                             "os": "OS X",
                             "osVersion": "Catalina",
