@@ -22,15 +22,16 @@ exports.config = {
                 {
                     browser: "Safari",
                     //For W3C-based scripts, use the following capabilties:
-                    capabilities: {
+                    desiredCapabilities: {
                         "bstack:options" : {
                             "os": "OS X",
                             "osVersion": "Catalina",
                             "projectName": "Codecept + WebdriverIO",
-                            "buildName": "Parallel_Execution",
-                            "sessionName": "Parallel Test Safari",
+                            "buildName": "browserstack-build-1",
+                            "sessionName": "Bstack parallel codecept-js 1",
                             "debug" : "true",
                             "networkLogs" : "true",
+                            "source": "codecept-js:sample-master-v1.0"
                         },
                         "browserVersion": "latest",
                     },
@@ -41,10 +42,11 @@ exports.config = {
                         "os_version": "Catalina",
                         "browser_version": "latest",
                         "project": "Codecept + WebdriverIO",
-                        "build": "Parallel_Execution",
-                        "name": "Parallel Test Safari",
+                        "build": "browserstack-build-1",
+                        "name": "Bstack parallel codecept-js 1",
                         "browserstack.debug": "true",
                         'browserstack.networkLogs': 'true',
+                        "browserstack.source": "codecept-js:sample-master-v1.0"
                     },
                     */
                 },
@@ -57,10 +59,11 @@ exports.config = {
                             "os": "Windows",
                             "osVersion": "10",
                             "projectName": "Codecept + WebdriverIO",
-                            "buildName": "Parallel_Execution",
-                            "sessionName": "Parallel Test Firefox",
+                            "buildName": "browserstack-build-1",
+                            "sessionName": "Bstack parallel codecept-js 2",
                             "debug" : "true",
                             "networkLogs" : "true",
+                            "source": "codecept-js:sample-master-v1.0"
                         },
                         "browserVersion": "latest",
                     },
@@ -71,10 +74,11 @@ exports.config = {
                         "os_version": "10",
                         "browser_version": "latest",
                         "project": "Codecept + WebdriverIO",
-                        "build": "Parallel_Execution",
-                        "name": "Parallel Test Firefox",
+                        "build": "browserstack-build-1",
+                        "name": "Bstack parallel codecept-js 2",
                         "browserstack.debug": "true",
                         'browserstack.networkLogs': 'true',
+                        "browserstack.source": "codecept-js:sample-master-v1.0"
                     },
                     */
                 },
