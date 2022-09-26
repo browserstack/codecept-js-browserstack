@@ -20,8 +20,9 @@ exports.config = {
                     "osVersion": "10",
                     "local": "true",
                     "projectName": "Codecept + WebdriverIO",
-                    "buildName": "Local_Execution",
-                    "sessionName": "Local Test",
+                    "buildName": "browserstack-build-1",
+                    "sessionName": "Bstack local codecept-js",
+                    "source": "codecept-js:sample-master-v1.0"
                 },
                 "browserVersion": "latest",
             }
@@ -32,8 +33,9 @@ exports.config = {
             //     "browser_version": "latest",
             //     "browserstack.local": "true",
             //     "project": "Codecept + WebdriverIO",
-            //     "build": "Local_Execution",
-            //     "name": "Local Test",
+            //     "build": "browserstack-build-1",
+            //     "name": "Bstack local codecept-js",
+            //     "browserstack.source": "codecept-js:sample-master-v1.0"
             // }
         }
     },
