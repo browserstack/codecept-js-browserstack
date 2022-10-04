@@ -78,7 +78,7 @@ exports.config = {
                         "name": "BStack parallel codecept-js 2",
                         "browserstack.debug": "true",
                         'browserstack.networkLogs': 'true',
-                        "browserstack.source": "codecept-js:sample-master:v1.0"
+                        "browserstack.source": "codecept-js:sample-main:v1.0"
                     },
                     */
                 },
