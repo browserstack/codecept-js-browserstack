@@ -31,7 +31,7 @@ exports.config = {
                             "sessionName": "BStack parallel codecept-js 1",
                             "debug" : "true",
                             "networkLogs" : "true",
-                            "source": "codecept-js:sample-master-v1.0"
+                            "source": "codecept-js:sample-master:v1.0"
                         },
                         "browserVersion": "latest",
                     },
@@ -46,7 +46,7 @@ exports.config = {
                         "name": "BStack parallel codecept-js 1",
                         "browserstack.debug": "true",
                         'browserstack.networkLogs': 'true',
-                        "browserstack.source": "codecept-js:sample-master-v1.0"
+                        "browserstack.source": "codecept-js:sample-master:v1.0"
                     },
                     */
                 },
@@ -63,7 +63,7 @@ exports.config = {
                             "sessionName": "BStack parallel codecept-js 2",
                             "debug" : "true",
                             "networkLogs" : "true",
-                            "source": "codecept-js:sample-master-v1.0"
+                            "source": "codecept-js:sample-master:v1.0"
                         },
                         "browserVersion": "latest",
                     },
@@ -78,7 +78,7 @@ exports.config = {
                         "name": "BStack parallel codecept-js 2",
                         "browserstack.debug": "true",
                         'browserstack.networkLogs': 'true',
-                        "browserstack.source": "codecept-js:sample-master-v1.0"
+                        "browserstack.source": "codecept-js:sample-master:v1.0"
                     },
                     */
                 },
