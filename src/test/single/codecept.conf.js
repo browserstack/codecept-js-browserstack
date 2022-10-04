@@ -18,7 +18,7 @@ exports.config = {
         "browser_version": "latest",
         "project": "Codecept + WebdriverIO",
         "build": "browserstack-build-1",
-        "name": "BStack single codecept-js",
+        "name": "Bstack single codecept-js",
         "browserstack.source": "codecept-js:sample-selenium-3-v1.0",
         "browserstack.debug": "true",
         'browserstack.networkLogs': 'true',
@@ -31,7 +31,7 @@ exports.config = {
          "osVersion": "10",
          "projectName": "Codecept + WebdriverIO",
          "buildName": "browserstack-build-1",
-         "sessionName": "BStack single codecept-js",
+         "sessionName": "Bstack single codecept-js",
          "source": "codecept-js:sample-selenium-3-v1.0"
          "debug" : "true",
          "networkLogs" : "true",
