@@ -31,7 +31,7 @@ exports.config = {
                             "sessionName": "BStack parallel codecept-js 1",
                             "debug" : "true",
                             "networkLogs" : "true",
-                            "source": "codecept-js:sample-master:v1.0"
+                            "source": "codecept-js:sample-main:v1.0"
                         },
                         "browserVersion": "latest",
                     },
