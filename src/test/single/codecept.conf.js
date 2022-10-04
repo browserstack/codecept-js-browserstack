@@ -21,7 +21,7 @@ exports.config = {
           "sessionName": "BStack single codecept-js",
           "debug" : "true",
           "networkLogs" : "true",
-          "source": "codecept-js:sample-master:v1.0"
+          "source": "codecept-js:sample-main:v1.0"
         },
         "browserVersion": "latest",
       }
@@ -37,7 +37,7 @@ exports.config = {
         "name": "BStack single codecept-js",
         "browserstack.debug": "true",
         'browserstack.networkLogs': 'true',
-        "browserstack.source": "codecept-js:sample-master:v1.0"
+        "browserstack.source": "codecept-js:sample-main:v1.0"
       }
       */
     }
