@@ -1,4 +1,5 @@
 const browserstack = require("browserstack-local");
+const util = require('util');
 require('dotenv').config()
 
 const BROWSERSTACK_USERNAME = process.env.BROWSERSTACK_USERNAME
@@ -40,14 +41,17 @@ exports.config = {
         }
     },
 
-    bootstrap: function () {
+    bootstrap: async function () {
         console.log("Connecting Local");
         exports.bs_local = new browserstack.Local();
-        exports.bs_local.start({ 'key': BROWSERSTACK_ACCESS_KEY }, function (error) {
-            if (error) return error;
+        exports.bs_local.start_async = util.promisify(exports.bs_local.start);
+        try {
+            await exports.bs_local.start_async({ 'key': BROWSERSTACK_ACCESS_KEY });
             console.log('Connected. Now testing...');
-
-        });
+        } catch(er) {
+            console.log('Local start failed with error', er);
+            return;
+        }
     },
 
     teardown: function () {
