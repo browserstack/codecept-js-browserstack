@@ -6,6 +6,7 @@ const BROWSERSTACK_ACCESS_KEY = process.env.BROWSERSTACK_ACCESS_KEY
 exports.config = {
     tests: './*_test.js',
     output: './output',
+    timeout: 120,
     helpers: {
         WebDriver: {
             url: 'https://bstackdemo.com',
