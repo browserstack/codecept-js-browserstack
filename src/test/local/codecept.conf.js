@@ -23,7 +23,7 @@ exports.config = {
                     "projectName": "Codecept + WebdriverIO",
                     "buildName": "browserstack-build-1",
                     "sessionName": "BStack local codecept-js",
-                    "source": "codecept-js:sample-main:v1.0"
+                    "source": "codecept-js:sample-main:v1.1"
                 },
                 "browserVersion": "latest",
             }
@@ -36,7 +36,7 @@ exports.config = {
             //     "project": "Codecept + WebdriverIO",
             //     "build": "browserstack-build-1",
             //     "name": "BStack local codecept-js",
-            //     "browserstack.source": "codecept-js:sample-main:v1.0"
+            //     "browserstack.source": "codecept-js:sample-main:v1.1"
             // }
         }
     },
