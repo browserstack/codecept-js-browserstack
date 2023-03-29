@@ -24,7 +24,7 @@ exports.config = {
                 "project": "Codecept + WebdriverIO",
                 "build": "browserstack-build-1",
                 "name": "BStack local codecept-js",
-                "browserstack.source": "codecept-js:sample-selenium-3:v1.0"
+                "browserstack.source": "codecept-js:sample-selenium-3:v1.1"
             }
             //For W3C-based scripts, use the following capabilties:
             // capabilities: {
@@ -35,7 +35,7 @@ exports.config = {
             //    "projectName": "Codecept + WebdriverIO",
             //    "buildName": "browserstack-build-1",
             //    "sessionName": "BStack local codecept-js",
-            //    "source": "codecept-js:sample-selenium-3:v1.0"
+            //    "source": "codecept-js:sample-selenium-3:v1.1"
             //  },
             //  "browserVersion": "latest",
             // }

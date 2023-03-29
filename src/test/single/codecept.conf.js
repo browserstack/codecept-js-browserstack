@@ -20,7 +20,7 @@ exports.config = {
         "project": "Codecept + WebdriverIO",
         "build": "browserstack-build-1",
         "name": "BStack single codecept-js",
-        "browserstack.source": "codecept-js:sample-selenium-3:v1.0",
+        "browserstack.source": "codecept-js:sample-selenium-3:v1.1",
         "browserstack.debug": "true",
         'browserstack.networkLogs': 'true',
       }
@@ -33,7 +33,7 @@ exports.config = {
          "projectName": "Codecept + WebdriverIO",
          "buildName": "browserstack-build-1",
          "sessionName": "BStack single codecept-js",
-         "source": "codecept-js:sample-selenium-3:v1.0"
+         "source": "codecept-js:sample-selenium-3:v1.1"
          "debug" : "true",
          "networkLogs" : "true",
        },
