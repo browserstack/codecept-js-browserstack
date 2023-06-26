@@ -1,7 +1,7 @@
 const assert = require('assert');
 Feature('Add to Cart');
 
-Scenario('Sample Test', async ({ I }) => {
+Scenario('BStack Sample Test', async ({ I }) => {
     I.amOnPage("https://bstackdemo.com")
     let expectedProductName = await I.grabTextFrom('//*[@id="1"]/p')
     I.click('//*[@id="1"]/div[4]')
