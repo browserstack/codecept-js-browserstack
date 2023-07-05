@@ -63,7 +63,7 @@ jobs:
         run: npm run sample-test
 
       - name: Run local tests
-        run: npm run sample-test
+        run: npm run sample-local-test
 
       - if: always()
         uses: actions/github-script@98814c53be79b1d30f795b907e553d8679345975
