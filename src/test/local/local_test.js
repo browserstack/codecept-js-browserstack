@@ -1,7 +1,7 @@
 const assert = require('assert');
 Feature('BrowserStack Local Testing');
 
-Scenario('Local Test', async ({ I }) => {
+Scenario('BStack Local Test', async ({ I }) => {
     I.amOnPage("http://bs-local.com:45454/")
     
     let text = await I.grabTitle()
