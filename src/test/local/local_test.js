@@ -1,14 +1,10 @@
+const assert = require('assert');
 Feature('BrowserStack Local Testing');
 
-Scenario('Local Test', async ({ I }) => {
-    I.amOnPage("http://bs-local.com:45691/check")
+Scenario('BStack Local Test', async ({ I }) => {
+    I.amOnPage("http://bs-local.com:45454/")
     
-    let text = await I.grabTextFrom('/html/body')
+    let text = await I.grabTitle()
     console.log(text)
-    if(text === "Up and running"){
-        I.executeScript('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed","reason": "Local Instance is runnning"}}')
-    }
-    else{
-        I.executeScript('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed","reason": "Local Instance is not runnning!"}}')
-    }   
+    assert.equal(text, "BrowserStack Local", "Local Instance is not runnning!")
 });

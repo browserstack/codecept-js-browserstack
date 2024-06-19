@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "single": "npx codeceptjs run -c src/test/single/codecept.conf.js --steps",
-    "parallel": "npx codeceptjs run-multiple bstack -c src/test/parallel/codecept.conf.js --steps",
-    "local": "npx codeceptjs run -c src/test/local/codecept.conf.js --steps"
+    "sample-test": "browserstack-node-sdk codeceptjs run -c src/test/sample/codecept.conf.js --steps",
+    "sample-local-test": "browserstack-node-sdk codeceptjs run -c src/test/local/codecept.conf.js --steps",
+    "postinstall": "npm update browserstack-node-sdk"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
   "homepage": "https://github.com/browserstack/codecept-js-browserstack#readme",
   "devDependencies": {
     "codeceptjs": "^3.2.3",
-    "webdriverio": "^7.17.4"
+    "webdriverio": "^7.17.4",
+    "browserstack-node-sdk": "latest"
   },
   "dependencies": {
     "browserstack-local": "^1.5.2",
