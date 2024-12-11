@@ -22,7 +22,7 @@
   "devDependencies": {
     "codeceptjs": "^3.2.3",
     "webdriverio": "^7.17.4",
-    "browserstack-node-sdk": "latest"
+    "browserstack-node-sdk": "1.34.28"
   },
   "dependencies": {
     "browserstack-local": "^1.5.2",
