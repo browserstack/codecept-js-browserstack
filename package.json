@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/browserstack/codecept-js-browserstack#readme",
   "devDependencies": {
-    "codeceptjs": "3.2.3",
+    "codeceptjs": "3.6.9",
     "webdriverio": "^7.17.4",
     "browserstack-node-sdk": "latest"
   },
